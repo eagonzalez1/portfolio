@@ -1,31 +1,53 @@
+html {
+  box-sizing: border-box;
+}
 
+body {
+  background-color: rgb(156, 150, 137);
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+}
 
 
 @media only screen and (min-width: 576px) {
   body {
     /* tablet/desktop - two column display */
     /* background-color: rgb(241, 230, 207); */
-    margin: 0;
+    /* margin: 0;
     display: grid;
     min-height: 100vh;
-    grid-template-columns: 20% 40% 40%;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-    "nav nav nav"
-    "aside main main"
-    "footer footer footer";
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto auto; */
+    
   }
 
+#work-section {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.headings {
+  grid-column-end: span 2;
+  text-align: center;
+}
+
+.work-descriptors {
+  text-align: right;
+  padding-right: 20px;
+}
+
+#about-section {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
 
 }
 
 
-body {
-  background-color: rgb(186, 178, 162);
-  font-family: sans-serif;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
+.main-sections {
+  /* background-color: black; */
 }
 
 .header-img {
@@ -51,7 +73,8 @@ nav {
 
 .work-pictures {
   border-style: solid;
-  max-width: 95%;
+  width: 95%;
+  max-width: 400px;
 }
 
 
