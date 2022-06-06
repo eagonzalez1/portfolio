@@ -38,9 +38,13 @@ body {
   padding-right: 20px;
 }
 
-#about-section {
+#aboutMe-section {
   display: grid;
   grid-template-columns: 40% 60%;
+}
+
+#aboutMe-paragraph {
+  max-width: 600px;
 }
 
 }
@@ -48,6 +52,7 @@ body {
 
 .main-sections {
   /* background-color: black; */
+  margin: 90px;
 }
 
 .header-img {
