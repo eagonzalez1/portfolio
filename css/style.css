@@ -25,11 +25,11 @@ body {
 
 #work-section {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 20% 30% 50%;
 }
 
 .headings {
-  grid-column-end: span 2;
+  grid-column-end: span 3;
   text-align: center;
 }
 
