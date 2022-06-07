@@ -59,11 +59,11 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   color:rgb(56, 40, 8)
-
 }
 
-.work-features {
-  margin: 0;
+#bottom-nav {
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .work-pictures {
@@ -78,7 +78,7 @@ nav {
 
 
 .contact-links {
-  max-width: 30px;
+  max-width: 50px;
 }
 
 
