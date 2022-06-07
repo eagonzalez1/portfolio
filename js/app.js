@@ -3,6 +3,11 @@
 import { previousWork } from "./previous-work.js"
 const cardContainer = document.getElementById('card-container')
 
+import { previousRoles } from "./previous-roles.js"
+const rolesAccordion = document.getElementById('experience-accordion')
+
+console.log(rolesAccordion)
+
 
 /*-------------------------------- Constants --------------------------------*/
 
