@@ -1,4 +1,4 @@
-
+/*-------------------------------- Imports --------------------------------*/
 
 import { previousWork } from "./previous-work.js"
 const cardContainer = document.getElementById('card-container')
