@@ -1,10 +1,11 @@
-console.log('test')
+
+
+import { previousWork } from "./previous-work.js"
+const cardContainer = document.getElementById('')
 
 
 /*-------------------------------- Constants --------------------------------*/
 
-const previousWork = {
-}
 
 
 /*-------------------------------- Variables --------------------------------*/
