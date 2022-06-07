@@ -6,7 +6,6 @@ const cardContainer = document.getElementById('card-container')
 import { previousRoles } from "./previous-roles.js"
 const rolesAccordion = document.getElementById('experience-accordion')
 
-console.log(rolesAccordion)
 
 
 /*-------------------------------- Constants --------------------------------*/
@@ -19,8 +18,6 @@ let project =
     github: 'https://github.com/eagonzalez1/ttt-weekend',
     description: "An 80's themed Tic-Tac-Toe application demonstrating DOM manipulation and Javacript integration."
   }
-
-
 
 let projectMarkup = previousWork.map(project =>
     `
@@ -37,8 +34,34 @@ let projectMarkup = previousWork.map(project =>
     </div>
     `).join('')
 
-console.log(projectMarkup)
 cardContainer.innerHTML = projectMarkup
+
+
+
+let role =
+  {
+    title: "Detachment Officer-in-charge (Jul '20 / May '21)",
+    responsibility: 'Led a 45 personnel / four-aircraft detachment deployed to the Horn of Africa to provide 24/7 emergency response support'
+  }
+
+let roleMarkup = previousRoles.map((role, index) =>
+    `
+    <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading${index}">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${index}" aria-expanded="true" aria-controls="collapse${index}">
+        ${role.title}
+        </button>
+      </h2>
+      <div id="collapse${index}" class="accordion-collapse collapse show" aria-labelledby="heading${index}" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        ${role.responsibility}
+        </div>
+      </div>
+    </div>
+    `).join('')
+
+    rolesAccordion.innerHTML = roleMarkup
 
 /*-------------------------------- Variables --------------------------------*/
 
