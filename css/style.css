@@ -3,19 +3,36 @@ html {
 }
 
 body {
-  font-family: sans-serif;
-  --body-bg: #fbeec1;
+  font-family: 'Open Sans', sans-serif; 
+  --body-bg: #8a8b9b;
+  --btn-text-color: #2a2a2a;
+  --card-text-color: #3e3e3e;
+  --inverted-btn-text-color: #eaeaea;
+  --light-dark-btn-bg: #1d1e2b;
+  --light-dark-btn-content: "Dark Mode";
+
   background-color: var(--body-bg);
-  --card-text-color: 
 }
 
 body.dark {
-  font-family: sans-serif;
-  --body-bg: #201f19;
+  font-family: 'Open Sans', sans-serif; 
+  --body-bg: #8a8b9b;
+  --btn-text-color: #2a2a2a;
+  --card-text-color: #3e3e3e;
+  --inverted-btn-text-color: #eaeaea;
+  --light-dark-btn-bg: #1d1e2b;
+  --light-dark-btn-content: "Light Mode";
+
   background-color: var(--body-bg);
-  --card-text-color: 
 }
 
+.btn {
+  border: none;
+  color: var(--btn-text-color);
+  font-family: var(--cursive);
+  font-size: 18px;
+  font-weight: 600;
+}
 
 @media only screen and (min-width: 768px) {
   body {
@@ -46,12 +63,23 @@ body.dark {
 }
 
 .main-sections {
-  margin: 15px;
+  margin: 70px 15px;
 }
 
 .headings {
   text-align: center;
   margin-bottom: 25px;
+  font-size: 38px;
+}
+
+#previous-work-heading {
+  font-family: 'Livvic', sans-serif;
+  font-weight: 700;
+
+}
+
+#aboutMe-heading {
+font-family: 'Press Start 2P', cursive;
 }
 
 .header-img {
@@ -84,9 +112,17 @@ nav {
   margin-bottom: 25px;
 }
 
-
 .contact-links {
   max-width: 50px;
 }
 
+
+/*
+font-family: 'Amatic SC', cursive; (handwirtten magazine cover)
+font-family: 'Indie Flower', cursive; (handwritten printed out)
+font-family: 'Livvic', sans-serif; (clean, slight curves)
+font-family: 'Open Sans', sans-serif; (clean, more straight)
+font-family: 'Press Start 2P', cursive; (video game)
+font-family: 'Trade Winds', cursive; (movie poster title)
+*/
 

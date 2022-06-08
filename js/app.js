@@ -35,14 +35,13 @@ let role =
 
 /*------------------------ Cached Element References ------------------------*/
 
-const lightDark = document.getElementById('light-dark')
-const body = document.querySelector('body')
-console.log(body)
+const lightDarkBtn = document.querySelector("#light-dark-button")
+const body = document.querySelector("body")
 
 
 /*----------------------------- Event Listeners -----------------------------*/
 
-lightDark.addEventListener("click", toggleLightDark)
+lightDarkBtn.addEventListener("click", toggleLightDark)
 
 
 
@@ -54,15 +53,15 @@ function toggleLightDark() {
 }
 
 function checkDarkPref() {
-  if (window.matchMedia("(prefers-color-scheme:dark)").matches && 
-  body.className !== "dark") {
+  if (
+    window.matchMedia("(prefers-color-scheme:dark)").matches &&
+    body.className !== "dark"
+  ) {
     toggleLightDark()
   }
 }
 
-function checkLightPref() {
-  
-}
+checkDarkPref()
 
 let projectMarkup = previousWork.map(project =>
   `
