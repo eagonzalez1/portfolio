@@ -3,9 +3,17 @@ html {
 }
 
 body {
+  font-family: sans-serif;
   --body-bg: #fbeec1;
   background-color: var(--body-bg);
+  --card-text-color: 
+}
+
+body.dark {
   font-family: sans-serif;
+  --body-bg: #201f19;
+  background-color: var(--body-bg);
+  --card-text-color: 
 }
 
 
