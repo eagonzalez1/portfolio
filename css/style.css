@@ -17,13 +17,24 @@ body {
 body.dark {
   color: #6fffe9;
   font-family: 'Open Sans', sans-serif; 
-  --btn-text-color: #6fffe9;
-  --card-text-color: #6fffe9;
-  --inverted-btn-text-color: #6fffe9;
-  --light-dark-btn-bg: #1d1e2b;
+  --btn-text-color: #5bc0be;
+  --card-text-color: red;
+  --inverted-btn-text-color: #0b132b;
+  --light-dark-btn-bg: #fefae0;
   --light-dark-btn-content: "Light Mode";
 
   background-image: linear-gradient(to right bottom, #0b132b, #131e36, #1c2942, #25344e, #2e405a, #334e69, #385c78, #3d6b86, #3f8098, #4295a8, #4babb4, #5bc0be);
+}
+
+#light-dark-button {
+  background-color: var(--light-dark-btn-bg);
+  background-image: var(--light-dark-btn-bg);
+}
+
+#light-dark-button::after {
+  border: none;
+  color: var(--inverted-btn-text-color);
+  content: var(--light-dark-btn-content);
 }
 
 .btn {
