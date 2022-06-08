@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  background-color: rgb(156, 150, 137);
+  --body-bg: #fbeec1;
+  background-color: var(--body-bg);
   font-family: sans-serif;
 }
 
@@ -58,7 +59,6 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  color:rgb(56, 40, 8)
 }
 
 #bottom-nav {
