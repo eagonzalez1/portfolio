@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  cursor: none;
   color: #23210d;
   font-family: 'Open Sans', sans-serif; 
   --btn-text-color: black;
@@ -198,6 +199,29 @@ nav {
   max-width: 50px;
 }
 
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transition-property: background, transform;
+  transform-origin: 100% 100%;
+  z-index: -1;
+  backdrop-filter: grayscale();
+}
+
+.link-grow{
+  transform: scale(2);
+  background: black;
+}
+
+.hovered-link {
+  color: white;
+}
 
 /*
 font-family: 'Amatic SC', cursive; (handwirtten magazine cover)

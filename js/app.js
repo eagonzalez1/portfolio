@@ -42,6 +42,25 @@ const favicon = document.querySelector('#favicon')
 const bitcoinPic = document.querySelector('.aboutMe-pictures')
 const bitcoinBtn = document.querySelector('#bitcoin-button')
 
+let mouseCursor = document.querySelector('.cursor')
+let navLinks = document.querySelectorAll('button, a, .btn.btn-primary')
+console.log(navLinks)
+
+window.addEventListener('mousemove', cursor)
+
+function cursor(evt) {
+  mouseCursor.style.top = evt.pageY + 'px'
+  mouseCursor.style.left = evt.pageX + 'px'
+}
+
+navLinks.forEach(link => {
+  link.addEventListener('mouseleave', () => {
+    mouseCursor.classList.remove('link-over')
+})
+link.addEventListener('mouseover', () => {
+  mouseCursor.classList.add('link-over')
+})
+})
 
 /*----------------------------- Event Listeners -----------------------------*/
 
