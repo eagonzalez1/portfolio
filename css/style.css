@@ -24,7 +24,7 @@ body {
 }
 
 body.dark {
-  color: #6fffe9;
+  color: #9ff2e6;
   font-family: 'Open Sans', sans-serif; 
   --btn-text-color: white;
   --btn-border: #DB3EB1;
@@ -35,7 +35,7 @@ body.dark {
   --dropdownMenuButton1-bc:  #0b132b;
   --dropdownMenuButton1-c: #DB3EB1;
   --roles-heading-color: lightgray;
-  --about-picutres-border-color: #DB3EB1;
+  --about-picutres-border-color: #00FF66;
   --accordion-bc: #0b132b;
   --accordion-color: white;
   --over-link-bc: #00FF66;
@@ -126,7 +126,6 @@ body.dark {
 #previous-work-heading {
   font-family: 'Livvic', sans-serif;
   font-weight: 700;
-
 }
 
 #aboutMe-heading {
@@ -153,9 +152,7 @@ font-family: 'Press Start 2P', cursive;
 }
 
 nav {
-  /* background-color: #888e71; */
   display: flex;
-  /* grid-area: nav; */
   height: 40px;
   flex-direction: row;
   align-items: center;
@@ -176,6 +173,7 @@ nav {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
+  position: relative;
 }
 
 .work-pictures {
@@ -187,11 +185,10 @@ nav {
   margin-right: auto;
   margin-bottom: 25px;
   position: relative;
-  z-index: -3;
 }
 
 #experience-accordion {
-
+  position: relative;
 }
 
 .accordion-item {
@@ -214,18 +211,14 @@ nav {
   transition: all 0.3s ease;
   transition-property: background, transform;
   transform-origin: 100% 100%;
-  z-index: -1;
   backdrop-filter: grayscale();
 }
 
 .link-over{
-  transform: scale(2);
   background: var(--over-link-bc);
+  opacity: 0.3;
 }
 
-.hovered-link {
-  color: white;
-}
 
 /*
 font-family: 'Amatic SC', cursive; (handwirtten magazine cover)
