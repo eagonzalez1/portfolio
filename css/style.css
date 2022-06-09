@@ -18,7 +18,7 @@ body {
   --about-picutres-border-color: black;
   --accordion-bc: #283618;
   --accordion-color: #faedcd;
-  --over-link-bc: #283618;
+  --over-link-bc: #6b4935;
 
   background-image: linear-gradient(to left, #fefae0, #fdf8dc, #fcf5d9, #fcf3d5, #fbf0d2, #f9efd0, #f8eece, #f6edcc, #f3edcb, #f0edca, #ecedc9, #e9edc9);
 }
@@ -186,6 +186,8 @@ nav {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
+  position: relative;
+  z-index: -3;
 }
 
 #experience-accordion {
