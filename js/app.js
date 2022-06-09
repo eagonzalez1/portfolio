@@ -29,7 +29,7 @@ let role =
 
 
 /*-------------------------------- Variables --------------------------------*/
-
+let favTurn = 1
 
 
 
@@ -53,27 +53,16 @@ bitcoinBtn.addEventListener("click", changeFavicon)
 /*-------------------------------- Functions --------------------------------*/
 
 function changeFavicon () {
-  favicon.setAttribute('href', "./assets/images/bitcoin-favicon-small.png")
-  bitcoinPic.setAttribute('src', "./assets/images/bitcoinConf-picture2.jpg")
-
-  // if (favicon.hasAttribute(".")) {
-  //   favicon.setAttribute('href', "/assets/images/E favicon.png")
-  // } else if (favicon.hasAttribute("/assets/images/E favicon.png/assets/images/bitcoin-favicon-small.png")) {
-  //   console.log('return')
-  //   favicon.setAttribute('href', "/assets/images/bitcoin-favicon-small.png")
-  // }
-
-  // if (bitcoinPic.hasAttribute("/assets/images/bitcoin-favicon-small.png")) {
-  //   bitcoinPic.setAttribute('href', "/assets/images/E favicon.png")
-  // } else if (bitcoinPic.hasAttribute("/assets/images/E favicon.png/assets/images/bitcoin-favicon-small.png")) {
-  //   bitcoinPic.setAttribute('href', "/assets/images/bitcoin-favicon-small.png")
-  // }
-
-// if (bitcoinPic.hasAttribute('src', "./assets/images/bitcoinConf-picture2.jpg")) {
-//   bitcoinPic.setAttribute('src', "./assets/images/bitcoinConf-picture.jpg")
-// }
+  if (favTurn === 1) {
+    favicon.setAttribute('href', "./assets/images/bitcoin-favicon-small.png")
+    bitcoinPic.setAttribute('src', "./assets/images/bitcoinConf-picture2.jpg")
+    favTurn = favTurn * -1
+  } else if (favTurn === -1) {
+    favicon.setAttribute('href', "../assets/images/E-favicon.png")
+    bitcoinPic.setAttribute('src', "./assets/images/bitcoinConf-picture.jpg")
+    favTurn = favTurn * -1
+  }
 }
-
 
 
 
