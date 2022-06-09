@@ -214,9 +214,9 @@ nav {
   backdrop-filter: grayscale();
 }
 
-.link-grow{
+.link-over{
   transform: scale(2);
-  background: black;
+  background: var(--accordion-bc);
 }
 
 .hovered-link {
