@@ -18,6 +18,7 @@ body {
   --about-picutres-border-color: black;
   --accordion-bc: #283618;
   --accordion-color: #faedcd;
+  --over-link-bc: #283618;
 
   background-image: linear-gradient(to left, #fefae0, #fdf8dc, #fcf5d9, #fcf3d5, #fbf0d2, #f9efd0, #f8eece, #f6edcc, #f3edcb, #f0edca, #ecedc9, #e9edc9);
 }
@@ -37,6 +38,7 @@ body.dark {
   --about-picutres-border-color: #DB3EB1;
   --accordion-bc: #0b132b;
   --accordion-color: white;
+  --over-link-bc: #00FF66;
 
   background-image: linear-gradient(to right bottom, #0b132b, #131e36, #1c2942, #25344e, #2e405a, #334e69, #385c78, #3d6b86, #3f8098, #4295a8, #4babb4, #5bc0be);
 }
@@ -216,7 +218,7 @@ nav {
 
 .link-over{
   transform: scale(2);
-  background: var(--accordion-bc);
+  background: var(--over-link-bc);
 }
 
 .hovered-link {
