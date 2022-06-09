@@ -38,14 +38,43 @@ let role =
 const lightDarkBtn = document.querySelector("#light-dark-button")
 const body = document.querySelector("body")
 
+const favicon = document.querySelector('#favicon')
+const bitcoinPic = document.querySelector('.aboutMe-pictures')
+const bitcoinBtn = document.querySelector('#bitcoin-button')
+
 
 /*----------------------------- Event Listeners -----------------------------*/
 
 lightDarkBtn.addEventListener("click", toggleLightDark)
+bitcoinBtn.addEventListener("click", changeFavicon)
 
 
 
 /*-------------------------------- Functions --------------------------------*/
+
+function changeFavicon () {
+  favicon.setAttribute('href', "./assets/images/bitcoin-favicon-small.png")
+  bitcoinPic.setAttribute('src', "./assets/images/bitcoinConf-picture2.jpg")
+
+  // if (favicon.hasAttribute(".")) {
+  //   favicon.setAttribute('href', "/assets/images/E favicon.png")
+  // } else if (favicon.hasAttribute("/assets/images/E favicon.png/assets/images/bitcoin-favicon-small.png")) {
+  //   console.log('return')
+  //   favicon.setAttribute('href', "/assets/images/bitcoin-favicon-small.png")
+  // }
+
+  // if (bitcoinPic.hasAttribute("/assets/images/bitcoin-favicon-small.png")) {
+  //   bitcoinPic.setAttribute('href', "/assets/images/E favicon.png")
+  // } else if (bitcoinPic.hasAttribute("/assets/images/E favicon.png/assets/images/bitcoin-favicon-small.png")) {
+  //   bitcoinPic.setAttribute('href', "/assets/images/bitcoin-favicon-small.png")
+  // }
+
+// if (bitcoinPic.hasAttribute('src', "./assets/images/bitcoinConf-picture2.jpg")) {
+//   bitcoinPic.setAttribute('src', "./assets/images/bitcoinConf-picture.jpg")
+// }
+}
+
+
 
 
 function toggleLightDark() {

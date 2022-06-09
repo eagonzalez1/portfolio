@@ -130,6 +130,11 @@ body.dark {
 font-family: 'Press Start 2P', cursive;
 }
 
+#bitcoin-button {
+  background-color: orange;
+  font-weight: bolder;
+}
+
 #roles-heading {
   font-family: 'Black Ops One', cursive;
   color: var(--roles-heading-color);
