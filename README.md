@@ -2,7 +2,7 @@
 Website that features my portfolio, contact information, and an about me section that touches on some of my previous roles.<br/>
 <br/>
 <br/>
-![image](https://user-images.githubusercontent.com/104691113/172966614-a9334e6f-6bc0-4570-b14e-af61e497a93a.png)
+![portfolio-screenshot](https://user-images.githubusercontent.com/104691113/172974069-caeb6afd-b258-4fee-b4ee-2d2654676eba.png)
 <br/>
 <br/>
 See the website here:<br/>
