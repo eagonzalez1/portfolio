@@ -6,32 +6,32 @@
 <br/>
 See the website here:<br/>
 https://eagonzalez-portfolio.netlify.app/<br/>
-<br />
-<br />
-Technologies used:<br />
-<br />
-CSS<br />
-Javascript<br />
-HTML<br />
-git<br />
-<br />
-<br />
-Credits:<br />
-Bootstrap-<br />
-  <li>Accordion<br />
-  Card
-  Drop Down
-  https://getbootstrap.com/docs/5.2/getting-started/introduction/
-  
-YouTube Channel: Dev Ed 
-  Cursor
-  https://www.youtube.com/watch?v=TpwpAYi-p2w
-
-
-Recent Changes:
-
-
-Ice Box:
-
-
+<br/>
+<br/>
+Technologies used:<br/>
+<br/>
+CSS<br/>
+Javascript<br/>
+HTML<br/>
+git<br/>
+<br/>
+<br/>
+Credits:<br/>
+Bootstrap-<br/>
+  <li>Accordion<br/>
+  Card<br/>
+  Drop Down<br/>
+  https://getbootstrap.com/docs/5.2/getting-started/introduction/</li><br/>
+  <br/>
+YouTube Channel: Dev Ed<br/>
+  <li>Cursor<br/>
+  https://www.youtube.com/watch?v=TpwpAYi-p2w</li><br/>
+<br/>
+<br/>
+Recent Changes:<br/>
+<br/>
+<br/>
+Ice Box:<br/>
+<br/>
+<br/>
 
