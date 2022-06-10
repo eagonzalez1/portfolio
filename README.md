@@ -1,4 +1,5 @@
 # Eduardo Gonzalez - Professional Portfolio <br/>
+Website that features my portfolio, contact information, and an about me section that touches on some of my previous roles.<br/>
 <br/>
 <br/>
 ![image](https://user-images.githubusercontent.com/104691113/172966614-a9334e6f-6bc0-4570-b14e-af61e497a93a.png)
@@ -19,13 +20,13 @@ git<br/>
 Credits:<br/>
 Bootstrap-<br/>
   <li>Accordion<br/>
-  Card<br/>
-  Drop Down<br/>
-  https://getbootstrap.com/docs/5.2/getting-started/introduction/</li><br/>
+  <li>Card<br/>
+  <li>Drop Down<br/>
+  <li>https://getbootstrap.com/docs/5.2/getting-started/introduction/</li><br/>
   <br/>
 YouTube Channel: Dev Ed<br/>
   <li>Cursor<br/>
-  https://www.youtube.com/watch?v=TpwpAYi-p2w</li><br/>
+  <li>https://www.youtube.com/watch?v=TpwpAYi-p2w</li><br/>
 <br/>
 <br/>
 Recent Changes:<br/>
