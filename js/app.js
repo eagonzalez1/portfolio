@@ -6,8 +6,6 @@ const cardContainer = document.getElementById('card-container')
 import { previousRoles } from "./previous-roles.js"
 const rolesAccordion = document.getElementById('experience-accordion')
 
-
-
 /*-------------------------------- Constants --------------------------------*/
 
 let project =
@@ -19,19 +17,15 @@ let project =
   description: "An 80's themed Tic-Tac-Toe application demonstrating DOM manipulation and Javacript integration."
 }
 
-
 let role =
 {
   title: "Detachment Officer-in-charge (Jul '20 / May '21)",
   responsibility: 'Led a 45 personnel / four-aircraft detachment deployed to the Horn of Africa to provide 24/7 emergency response support'
 }
 
-
-
 /*-------------------------------- Variables --------------------------------*/
+
 let favTurn = 1
-
-
 
 /*------------------------ Cached Element References ------------------------*/
 
@@ -66,8 +60,6 @@ link.addEventListener('mouseover', () => {
 
 lightDarkBtn.addEventListener("click", toggleLightDark)
 bitcoinBtn.addEventListener("click", changeFavicon)
-
-
 
 /*-------------------------------- Functions --------------------------------*/
 
