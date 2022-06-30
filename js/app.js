@@ -101,7 +101,7 @@ let projectMarkup = previousWork.map(project =>
     <p class="card-text">${project.description}</p>
     <div>
       <a href="${project.github}" class="btn btn-primary">GitHub</a>
-      <a href="${project.deployemnt}" class="btn btn-secondary">Deployment</a>
+      <a href="${project.deployment}" class="btn btn-secondary">Deployment</a>
     </div>
   </div>
   </div>
