@@ -1,5 +1,3 @@
-
-
 let previousRoles = [
   {
     title: "Detachment Officer-in-charge (Jul '20 / May '21)",

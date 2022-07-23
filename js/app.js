@@ -75,8 +75,6 @@ function changeFavicon () {
   }
 }
 
-
-
 function toggleLightDark() {
   body.className = body.className === "dark" ? "" : "dark"
 }
@@ -109,8 +107,6 @@ let projectMarkup = previousWork.map(project =>
 
 cardContainer.innerHTML = projectMarkup
 
-
-
 let roleMarkup = previousRoles.map((role, index) =>
     `
     <div class="accordion" id="accordionExample">
@@ -129,7 +125,3 @@ let roleMarkup = previousRoles.map((role, index) =>
     `).join('')
 
     rolesAccordion.innerHTML = roleMarkup
-
-
-
-

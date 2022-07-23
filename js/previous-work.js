@@ -1,5 +1,3 @@
-
-
 let previousWork = [
   {
     title: 'Dev Jobs Tracker',
@@ -17,8 +15,6 @@ let previousWork = [
   },
 ]
 
-
 export {
   previousWork
 }
-
