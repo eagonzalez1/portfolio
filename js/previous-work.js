@@ -9,11 +9,11 @@ let previousWork = [
     description: "This is an app to keep track of software-development jobs. It demonstrates the use of Node.js, Express, and mongoDB to create a full-stack application."
   },
   {
-    title: 'Tic Tac Toe',
-    deployment: 'https://tic-tac-toe-80s.netlify.app/',
-    image: '/assets/images/tic-tac-toe-screenshot.png',
-    github: 'https://github.com/eagonzalez1/ttt-weekend',
-    description: "An 80's themed Tic-Tac-Toe application demonstrating DOM manipulation and Javacript integration."
+    title: 'Foodie',
+    deployment: 'https://foodie-foodfrat.netlify.app/',
+    image: '/assets/images/FoodiePrev.png',
+    github: 'https://github.com/jmeirink/foodie-front-end',
+    description: "Collaborated with a group to create a decoupled MERN Stack application that allows users to share their dining experience by posting specific dishes and connect with other like-minded foodies."
   },
 ]
 
